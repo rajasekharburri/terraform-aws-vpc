@@ -1,5 +1,6 @@
 # Any one can't over ride
 # locals cant override
+
 locals{
     common_tags = {
         Project = var.project_name
