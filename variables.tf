@@ -11,6 +11,8 @@ variable "environment" {
   type = string
 }
 
+# optional
+
 variable "vpc_tags" {
     type = map
     default = {}

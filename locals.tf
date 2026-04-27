@@ -1,5 +1,5 @@
 # Any one can't over ride
-
+# locals cant override
 locals{
     common_tags = {
         Project = var.project_name
@@ -9,5 +9,3 @@ locals{
     common_name_suffix = "${var.project_name}-${var.environment}" # roboshop-dev
     az_names = slice(data.aws_availability_zones.available.names, 0, 2 )
 }
-
-# locals cant override
